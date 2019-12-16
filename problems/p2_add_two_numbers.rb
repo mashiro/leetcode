@@ -1,13 +1,13 @@
 class ListNode
-    attr_accessor :val, :next
-    def initialize(val)
-        @val = val
-        @next = nil
-    end
+  attr_accessor :val, :next
+  def initialize(val)
+    @val = val
+    @next = nil
+  end
 end
 
 def a_to_i(arr)
-  arr.each.with_index.reduce(0) { |a, (v, i)| a + (v * 10 ** i) }
+  arr.each.with_index.reduce(0) { |a, (v, i)| a + (v * 10**i) }
 end
 
 def i_to_a(val)
@@ -41,4 +41,3 @@ end
 
 p to_link(i_to_a(81))
 p to_link(i_to_a(0))
-

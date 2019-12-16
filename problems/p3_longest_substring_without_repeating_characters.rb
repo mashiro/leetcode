@@ -6,7 +6,7 @@ def length_of_longest_substring(s)
   n = s.size
 
   while i < n && j < n
-    #p "i=#{i}, j=#{j}"
+    # p "i=#{i}, j=#{j}"
     unless set.include?(s[j])
       set.add(s[j])
       j += 1

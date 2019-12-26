@@ -1,3 +1,3 @@
-struct Solution {}
+pub struct Solution {}
 
-mod p1;
+pub mod p1;

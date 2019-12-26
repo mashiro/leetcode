@@ -1,5 +1,5 @@
 [package]
-name = "probrems"
+name = "leetcode"
 version = "0.1.0"
 authors = ["mashiro <mail@mashiro.org>"]
 edition = "2018"
